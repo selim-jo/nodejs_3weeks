@@ -19,8 +19,8 @@ jobs:
 	   username: ${{ secrets.REMOTE_SSH_ID }}
 	   key: ${{ secrets.REMOTE_SSH_KEY }}
 	   port: ${{ secrets.REMOTE_SSH_PORT }}
-	   script: |
-	      cd /home/ubuntu/nodejs_3weeks
-	      git pull
-	      npm install
-	      sudo pm2 restart all
+	   script:|
+	   	cd /home/ubuntu/nodejs_3weeks
+              	git pull
+	      	npm install
+	      	sudo pm2 restart all
