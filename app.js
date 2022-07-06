@@ -22,7 +22,7 @@ app.use(requestMiddleware);
 app.use('/posts', postsRouter);
 
 app.get('/', (req, res) => {
-    res.send('My blog');
+    res.send('My blog_deploy test');
 });
 
 // 포트 setting
