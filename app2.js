@@ -5,7 +5,7 @@ const connect = require('./schemas'); // 데이터베이스 관련한거 가져�
 const Post = require('./schemas/posts');
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 connect();
 
 const postsRouter = require('./routes/posts');
